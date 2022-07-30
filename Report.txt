@@ -1,0 +1,8 @@
+This is an Inventory Management web application designed using Redis database.
+A Customer can place orders selecting vendors of their preference. 
+Once registered as a customer you can login through the login page and place your order.
+Your data will be automatically stored inside Redis database once you have successfully registered as a customer, same goes for the vendor. 
+To see the data in the database type "keys *" in Redis-cli. 
+Remember to close Redis-cli before registering a new customer/vendor. This may cause an error while registering. 
+Registered customer/vendor's contact number is the main key that we have used. 
+To get any data let say customer name from the database type this command "get cust_names:cont_no:cust_name" this returns the name of the registered customer.
