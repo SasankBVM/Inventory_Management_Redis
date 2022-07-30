@@ -7,6 +7,7 @@ Remember to close Redis-cli before registering a new customer/vendor. This may c
 Registered customer/vendor's contact number is the main key that we have used. 
 To get any data let say customer name from the database type this command "get cust_names:cont_no:cust_name" this returns the name of the registered customer.
 PREREQUISITS:
-Php
+PHP
 Redis-Server
 Apache server(XAMPP)
+Predis(For connecting Redis and PHP
